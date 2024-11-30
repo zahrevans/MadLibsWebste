@@ -38,7 +38,7 @@ p {
   --animate-duration: 2s;
 }
 .card {
-  background-color: #ff4769;
+  background-color: rgb(61, 16, 168);
   border: 4px solid white;
   border-radius: 45px;
   size: 70%;
@@ -53,30 +53,6 @@ p {
   transition: 0.5s;
 }
 
-.bg-body-tertiary {
-  --bs-bg-opacity: 1;
-  background-color: #ff4769 !important;
-}
-.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #000;
-  --bs-btn-border-color: #ffffff;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #3b3b3b;
-  --bs-btn-hover-border-color: #ffffff00;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #000;
-  --bs-btn-active-border-color: #000;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #000;
-  --bs-btn-disabled-border-color: #000;
-}
-.btn:hover {
-  transform: scale(1.2);
-  transition: 0.2s;
-}
 img {
   border-radius: 45px;
 }
