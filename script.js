@@ -28,6 +28,15 @@ let adj4m = prompt('Give an Adjective');
 //middle pargraph
 let mid = `<p> During the journey, ${username} faced many challenges. First, ${pron} had to cross a ${adj1m} river full of ${pn1m}. Then, ${username} found a ${adj2m} forest where a ${adj3m} ${animal} warned, “You must ${v1m} the ${n1m} or risk being trapped forever!” With quick thinking and a ${adj4m} spirit, ${username} managed to ${v1m} the danger and continue the quest. <p>`
 
+//end variables
+let n1e = prompt('Give a Noun')
+let v1e = prompt('Give a Verb')
+let adj1e = prompt('Give an Adjective')
+let adj2e = prompt('Give an Adjective')
+
+
+//end paragraph
+let end = `<p> Finally, after days of traveling, ${username} arrived at the hidden ${n1e} where the ${n2b} was said to reside. As ${pron} approached, the ${n2b} shimmered and began to ${v1e}. With a ${adj1e} smile, ${username} reached out and grabbed the ${n2b}. From that day on, ${username} became famous for taking the ${n2b} and was remembered as the ${adj2e} hero of the ${adj1b} village. </p>`
 
 
 
